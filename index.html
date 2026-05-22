@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Emily Interiors | Luxury Interior Design</title>
+
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -444,14 +445,13 @@
         <div class="testimonial-card p-8 md:p-10 text-charcoal">
           <i data-lucide="quote" class="w-8 h-8 text-sage mb-4"></i>
           <p class="font-serif text-xl md:text-2xl italic leading-relaxed mb-6">
-            "Emily transformed our apartment into a sanctuary. Her attention to detail and ability to understand our
-            lifestyle was remarkable. Every corner feels intentional yet effortless."
+            "Emily has been such a joy to work with. Even though I gave her a difficult task of a blank slate— with limited experience in interior design myself —she managed to perfectly discern my tastes and present beautiful interpretations. I couldn’t be happier with her work.  On top of her professional results, she is also so pleasant and easy to collaborate with"
           </p>
           <div class="flex items-center gap-4">
             <img src="https://static.photos/people/100x100/401" alt="Client"
               class="w-12 h-12 rounded-full object-cover grayscale">
             <div>
-              <p class="font-medium text-charcoal">Sarah & James Mitchell</p>
+              <p class="font-medium text-charcoal">John M</p>
               <p class="text-sm text-warm-gray">Upper West Side, NY</p>
             </div>
           </div>
@@ -550,16 +550,16 @@
 
           <div class="mt-10 flex gap-4">
             <a href="#"
-              class="w-10 h-10 border border-charcoal flex items-center justify-center hover:bg-charcoal hover:text-white transition-all">
-              <i data-lucide="instagram" class="w-5 h-5"></i>
+              class="w-10 h-10 flex items-center justify-center hover:bg-white hover:text-white transition-all">
+              <img src="instagram.svg" alt="Instagram" class="w-5 h-5">
             </a>
-            <a href="#"
-              class="w-10 h-10 border border-charcoal flex items-center justify-center hover:bg-charcoal hover:text-white transition-all">
+            <!-- <a href="#"
+              class="w-10 h-10 flex items-center justify-center hover:bg-white hover:text-white transition-all">
               <i data-lucide="linkedin" class="w-5 h-5"></i>
-            </a>
+            </a> -->
             <a href="#"
-              class="w-10 h-10 border border-charcoal flex items-center justify-center hover:bg-charcoal hover:text-white transition-all">
-              <i data-lucide="facebook" class="w-5 h-5"></i>
+              class="w-10 h-10 flex items-center justify-center hover:bg-white hover:text-white transition-all">
+              <img src="facebook.svg" alt="Facebook" class="w-5 h-5">
             </a>
           </div>
         </div>
@@ -631,10 +631,14 @@
     </div>
   </footer>
 
+
+  <!-- libraries -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
   <!-- JavaScript -->
   <script>
     // Initialize Lucide icons
-    lucide.createIcons();
+    lucide.createIcons()
 
     // Mobile menu toggle
     function toggleMobileMenu() {
